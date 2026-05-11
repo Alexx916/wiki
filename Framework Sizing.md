@@ -75,13 +75,13 @@ As such, it's easier to adhere to the below values or, if you intend to use a cu
 | -------------------- | ---------- | ------------- |
 | base-0               |            | 0px           |
 | base-px              |            | 1px           |
-| base-05              | 0.125rem   | 2px           |
+| base-0.5              | 0.125rem   | 2px           |
 | base-1               | 0.25rem    | 4px           |
-| base-15              | 0.375rem   | 6px           |
+| base-1.5              | 0.375rem   | 6px           |
 | base-2               | 0.5rem     | 8px           |
-| base-25              | 0.625rem   | 10px          |
+| base-2.5              | 0.625rem   | 10px          |
 | base-3               | 0.75rem    | 12px          |
-| base-35              | 0.875rem   | 14px          |
+| base-3.5              | 0.875rem   | 14px          |
 | base-4               | 1rem       | 16px          |
 | base-5               | 1.25rem    | 20px          |
 | base-6               | 1.5rem     | 24px          |
