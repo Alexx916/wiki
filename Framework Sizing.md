@@ -73,41 +73,41 @@ As such, it's easier to adhere to the below values or, if you intend to use a cu
 
 | Tailwind declaration | Size (REM) | Size (Pixels) |
 | -------------------- | ---------- | ------------- |
-| gap-0                |            | 0px           |
-| gap-px               |            | 1px           |
-| gap-0.5              | 0.125rem   | 2px           |
-| gap-1                | 0.25rem    | 4px           |
-| gap-1.5              | 0.375rem   | 6px           |
-| gap-2                | 0.5rem     | 8px           |
-| gap-2.5              | 0.625rem   | 10px          |
-| gap-3                | 0.75rem    | 12px          |
-| gap-3.5              | 0.875rem   | 14px          |
-| gap-4                | 1rem       | 16px          |
-| gap-5                | 1.25rem    | 20px          |
-| gap-6                | 1.5rem     | 24px          |
-| gap-7                | 1.75rem    | 28px          |
-| gap-8                | 2rem       | 32px          |
-| gap-9                | 2.25rem    | 36px          |
-| gap-10               | 2.5rem     | 40px          |
-| gap-11               | 2.75rem    | 44px          |
-| gap-12               | 3rem       | 48px          |
-| gap-14               | 3.5rem     | 56px          |
-| gap-16               | 4rem       | 64px          |
-| gap-20               | 5rem       | 80px          |
-| gap-24               | 6rem       | 96px          |
-| gap-28               | 7rem       | 112px         |
-| gap-32               | 8rem       | 128px         |
-| gap-36               | 9rem       | 144px         |
-| gap-40               | 10rem      | 160px         |
-| gap-44               | 11rem      | 176px         |
-| gap-48               | 12rem      | 192px         |
-| gap-52               | 13rem      | 208px         |
-| gap-56               | 14rem      | 224px         |
-| gap-60               | 15rem      | 240px         |
-| gap-64               | 16rem      | 256px         |
-| gap-72               | 18rem      | 288px         |
-| gap-80               | 20rem      | 320px         |
-| gap-96               | 24rem      | 384px         |
+| base-0               |            | 0px           |
+| base-px              |            | 1px           |
+| base-05              | 0.125rem   | 2px           |
+| base-1               | 0.25rem    | 4px           |
+| base-15              | 0.375rem   | 6px           |
+| base-2               | 0.5rem     | 8px           |
+| base-25              | 0.625rem   | 10px          |
+| base-3               | 0.75rem    | 12px          |
+| base-35              | 0.875rem   | 14px          |
+| base-4               | 1rem       | 16px          |
+| base-5               | 1.25rem    | 20px          |
+| base-6               | 1.5rem     | 24px          |
+| base-7               | 1.75rem    | 28px          |
+| base-8               | 2rem       | 32px          |
+| base-9               | 2.25rem    | 36px          |
+| base-10              | 2.5rem     | 40px          |
+| base-11              | 2.75rem    | 44px          |
+| base-12              | 3rem       | 48px          |
+| base-14              | 3.5rem     | 56px          |
+| base-16              | 4rem       | 64px          |
+| base-20              | 5rem       | 80px          |
+| base-24              | 6rem       | 96px          |
+| base-28              | 7rem       | 112px         |
+| base-32              | 8rem       | 128px         |
+| base-36              | 9rem       | 144px         |
+| base-40              | 10rem      | 160px         |
+| base-44              | 11rem      | 176px         |
+| base-48              | 12rem      | 192px         |
+| base-52              | 13rem      | 208px         |
+| base-56              | 14rem      | 224px         |
+| base-60              | 15rem      | 240px         |
+| base-64              | 16rem      | 256px         |
+| base-72              | 18rem      | 288px         |
+| base-80              | 20rem      | 320px         |
+| base-96              | 24rem      | 384px         |
 
 
 ## Color declarations
