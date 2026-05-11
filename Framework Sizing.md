@@ -22,8 +22,8 @@ The following container sizes are dictated by ourselves as a method of keeping c
 
 | Alias      | Container min width | Container max width               | Tailwind declaration | Comment                                                                                                |
 | ---------- | ------------------- | --------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------ |
-| Small      | 1080px              | 1280px                            | container-small      | Used for walls of text to reduce eye movement.                                                         |
-| Medium     | 1440px              | 1680wpx                           | container            | Typical content size for a given design.<br>*This should be considered the typical width for content.* |
+| Small      | 1024px              | 1280px                            | container-small      | Used for walls of text to reduce eye movement.                                                         |
+| Medium     | 1536px              | 1680px                           | container            | Typical content size for a given design.<br>*This should be considered the typical width for content.* |
 | Large      | 1680px              | 100vw (minus global site padding) | container-wide       | Wider content **with container padding.**                                                              |
 | Full Width | 100vw               | 100vw                             | container-full       | Full width banners **flush to the viewport.**                                                          |
 
