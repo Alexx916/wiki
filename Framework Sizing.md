@@ -6,14 +6,14 @@ This isn't exactly what tailwind uses for its widths (for example, a 1536px decl
 
 | Tailwind declaration | Alias         | Screen width | Comment                                        |
 | -------------------- | ------------- | ------------ | ---------------------------------------------- |
-| xs                   | mobile        | 360px        | Most popular mobile market share 2025 (19.18%) |
+| xs (nonstandard)                  | mobile        | 360px        | Most popular mobile market share 2025 (19.18%) |
 | sm                   | mobile-large  | 640px        | Tailwind default size                          |
 | md                   | tablet        | 768px        | iPad portrait                                  |
 | lg                   | tablet-large  | 1024px       | iPad landscape<br>Tailwind default size        |
 | xl                   | laptop        | 1280px       | Laptop and above<br>Tailwind default size      |
-| 2xl                  | laptop-large  | 1440px       | Macbook and above                              |
-| 3xl                  | desktop       | 1680px       | Desktop and above                              |
-| 4xl                  | desktop-large | 1920px       | UHD/4k screens                                 |
+| 2xl                  | laptop-large  | 1536px       | Macbook and above                              |
+| 3xl  (nonstandard)               | desktop       | 1680px       | Desktop and above                              |
+| 4xl  (nonstandard)                | desktop-large | 1920px       | UHD/4k screens                                 |
 
 ### Suggested container width declarations
 Rather than having a set of widths for a container, Tailwind sets the maximum width of an element with the `container` class to match the minimum width of the current breakpoint, rather than supporting specific content widths. We are able to set a max-width on a case-by-case basis, however as a general rule content should adhere to a uniform set of widths.
