@@ -4,16 +4,16 @@ Screen sizes are dictated by commonly used [screen widths](#Suggested%20width%20
 ### Suggested width declarations
 This isn't exactly what tailwind uses for its widths (for example, a 1536px declaration is used for `screen-2xl`, likely due to this width having the [fourth largest market share in 2025](#Global%20screen%20market%20share%20(Nov%202024-2025))). As such, the above width declarations have been chosen to capture the most common breakpoints and ensure fluidity across devices.
 
-| Tailwind declaration | Alias         | Screen width | Comment                                        |
-| -------------------- | ------------- | ------------ | ---------------------------------------------- |
-| xs (nonstandard)                  | mobile        | 360px        | Most popular mobile market share 2025 (19.18%) <br/> We don't use this as a vairable but this **must be the smallest size the design will properly display on** |
-| sm                   | mobile-large  | 640px        | Tailwind default size                          |
-| md                   | tablet        | 768px        | iPad portrait                                  |
-| lg                   | tablet-large  | 1024px       | iPad landscape<br>Tailwind default size        |
-| xl                   | laptop        | 1280px       | Laptop and above<br>Tailwind default size      |
-| 2xl                  | laptop-large  | 1536px       | Macbook and above                              |
-| 3xl  (nonstandard)               | desktop       | 1680px       | Desktop and above                              |
-| 4xl  (nonstandard)                | desktop-large | 1920px       | UHD/4k screens                                 |
+| Tailwind declaration | Standard | Alias         | Screen width | Comment                                        |
+| -------------------- | --------- | ------------- | ------------ | ---------------------------------------------- |
+| xs      | No            | mobile        | 360px        | Most popular mobile market share 2025 (19.18%) <br/> We don't use this as a vairable but this **must be the smallest size the design will properly display on** |
+| sm         | Yes |          | mobile-large  | 640px        | Tailwind default size                          |
+| md         | Yes |          | tablet        | 768px        | iPad portrait                                  |
+| lg         | Yes |          | tablet-large  | 1024px       | iPad landscape<br>Tailwind default size        |
+| xl         | Yes |          | laptop        | 1280px       | Laptop and above<br>Tailwind default size      |
+| 2xl        | Yes |          | laptop-large  | 1536px       | Macbook and above                              |
+| 3xl  | No |               | desktop       | 1680px       | Desktop and above                              |
+| 4xl  | No |                | desktop-large | 1920px       | UHD/4k screens                                 |
 
 ### Suggested container width declarations
 Rather than having a set of widths for a container, Tailwind sets the maximum width of an element with the `container` class to match the minimum width of the current breakpoint, rather than supporting specific content widths. We are able to set a max-width on a case-by-case basis, however as a general rule content should adhere to a uniform set of widths.
