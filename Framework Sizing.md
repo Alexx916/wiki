@@ -6,7 +6,7 @@ This isn't exactly what tailwind uses for its widths (for example, a 1536px decl
 
 | Tailwind declaration | Alias         | Screen width | Comment                                        |
 | -------------------- | ------------- | ------------ | ---------------------------------------------- |
-| xs (nonstandard)                  | mobile        | 360px        | Most popular mobile market share 2025 (19.18%) |
+| xs (nonstandard)                  | mobile        | 360px        | Most popular mobile market share 2025 (19.18%) <br/> We don't use this as a vairable but this **must be the smallest size the design will properly display on** |
 | sm                   | mobile-large  | 640px        | Tailwind default size                          |
 | md                   | tablet        | 768px        | iPad portrait                                  |
 | lg                   | tablet-large  | 1024px       | iPad landscape<br>Tailwind default size        |
